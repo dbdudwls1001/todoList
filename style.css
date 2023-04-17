@@ -39,7 +39,8 @@ body{
 
 .task{
     display: flex;
-    justify-content:  space-between;
+    justify-content:  space-between;                    /*어떤 기능 인지 확인 하기 */
+    padding: 1em;
 }   
 
 
