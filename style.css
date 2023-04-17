@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-image: url("image/backgraund.jpg");
+    background-repeat: no-repeat;                       /*반복되는 이미지를 한개로 바꿔주지요*/
+    background-size: cover;                             /*배경화면을 가득 체우기*/
+}
+
+.container{
+    background-color: white;
+    min-height: 100vh;                                  /* vh: 내가 보는 높이 만큼 // 제일 작은 높이를 100%의 vh를 사용 하겠다*/
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /*박스 쉐도우 파일에서 가져옴 https://getcssscan.com/css-box-shadow-examples*/
+}               
+
+.task-tabs{
+    display: flex;                                      /*글자를 가로로 보이게 하는 효과*/
+    border-bottom: 1px solid lightgray;               /*하단의 줄을 표시 해주는 역할*/
+    position: relative;
+}         
+
+.task-tabs div{
+    padding: 1em;
+
+}
+
+.task-area{
+    border: 1px solid lightgray;                    /*task-area에 그림을 그린다.*/
+}
+
+#under-line{
+    height:4px;
+    background-color: navy;
+    position: absolute;
+    width: 65px;
+    left: 0px;
+    top: 52px;
+    padding: 0px;
+}
+
+.task{
+    display: flex;
+    justify-content:  space-between;
+}   
+
+
