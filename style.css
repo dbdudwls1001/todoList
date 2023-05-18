@@ -34,3 +34,7 @@ body{
     justify-content: space-between;    /*컨텐츠를 양쪽끝으로 밀어 내게 하는것*/
     padding: 1em;
 }
+
+.task-done{
+    text-decoration: line-through;
+}
